@@ -1,0 +1,22 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: sans-serif;
+}
+.control, .display {
+	display: flex;
+	border: 1px solid white;
+}
+#bars {
+	flex: 1;
+	display: block;
+	width: 100%;
+	height: calc(100% - 250px);
+	margin: auto;
+}
+#myaudio {
+	flex: 1;
+}
+#audio_file {
+	margin: auto auto auto 10px;
+}
